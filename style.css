@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(9, 2, 41);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(9, 2, 41);
+}
+
+.card {
+    background-color: rgb(2, 41, 113);
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.inputcity {
+    display: flex;
+    justify-content: center;
+}
+
+.inputcity input {
+    border-radius: 20px;
+    padding-left: 19px;
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    outline: 0;
+}
+
+.inputcity button {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    margin-left: 10px;
+    border: none;
+    transition: 0.8;
+}
+
+.inputcity button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.city-details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Oswald;
+}
+
+.city-details img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.city-details h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 5px;
+    color: white;
+}
+
+.city-details h4 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: grey;
+}
+
+.col{
+display: flex;
+}
+.col img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.col .heading{
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 2px;
+    font-weight: 700;
+    font-family: Oswald;
+    color: grey;
+}
+.error-container{
+    color: rgb(233, 19, 19);
+    background-color: rgb(81, 58, 210);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+}

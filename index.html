@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inputcity">
+                <input type="text" name="city" id="city" placeholder="Enter City name">
+                <button onclick="getWeather()"><span class="material-symbols-outlined">
+                    search
+                    </span> </button>
+            </div>
+            <div class="city-details">
+                <img src="img/sun.png" alt="">
+                <h3>15°C</h3>
+                <h4>London</h4>
+            </div>
+            <div class="weather-details">
+                <div class="col">
+                    <img src="img/humidity.png" alt="" srcset="">
+                    <div class="heading">
+                        <h4 id="humidity">87%</h4>
+                        <h5 >Humidity</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/windy.png" alt="" srcset="">
+                    <div class="heading">
+                        <h4 id="windSpeed">54km/h</h4>
+                        <h5 >Wind Speed</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
