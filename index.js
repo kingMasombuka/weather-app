@@ -1,5 +1,5 @@
 //onclick handler for button
-const APIKEY = '7c91e9214b87443394a190616233009';
+import { APIKEY } from './files.js';
 const citytosearch = document.getElementById('city');
 const degrees = document.querySelector('.city-details h3');
 const city = document.querySelector('.city-details h4');
